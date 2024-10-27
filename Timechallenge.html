@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Math Game</title>
+    <link rel="stylesheet" href="Game.css">
+</head>
+
+<body>
+    <h1>Time Challenge</h1>
+    <h4>You have 40 seconds to solve as many problems as possible! Stay focused and see how many you can get right!</h4>
+    <div class="container">
+        <div id="countDown">40</div>
+        <div id="score">Score: 0</div>
+        <div class="input-container">
+            <input type="text" id="input1" readonly>
+            <span id="operator"></span>
+            <input type="text" id="input2" readonly>
+        </div>
+        <input type="number" id="userInput" placeholder="Your Answer">
+        <br>
+        <button id="check">Check Answer</button>
+        <div id="message" style="color: red;"></div>
+    </div>
+    <a href="home.html" class="button">Back to Home</a>
+    <script src="Game.js"></script>
+</body>
+<div class=" footer ">
+    <p>&copy; 2024 Math Quest. Have fun and learn!</p>
+</div>
+
+</html>

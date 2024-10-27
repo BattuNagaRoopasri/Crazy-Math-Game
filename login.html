@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMjkCPPEjLURp4IMROkZZwNjXoCDE7aN7pkg&s")no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .wrapper {
+            width: 420px;
+            background: transparent;
+            border: 2px solid rgba(255, 255, 255, 0.242);
+            backdrop-filter: blur(30px);
+            box-shadow: 0 0 10px rgbs(0, 0, 0, .2);
+            color: #1e52d7;
+            border-radius: 10px;
+            padding: 30px, 40px;
+            text-align: center;
+        }
+        
+        .wrapper h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+        
+        .wrapper .input-box {
+            width: 100%;
+            height: 50px;
+            margin: 30px 0;
+        }
+        
+        .input-box input {
+            width: 80%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgba(160, 209, 240, 0.34);
+            border-radius: 40px;
+            font-size: 16px;
+            color: #1e52d7d9;
+            padding: 20px 45px 20px 20px;
+        }
+        
+        .input-box input::placeholder {
+            color: #1e52d7e2;
+        }
+        
+        .input-box i {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            transform: translateX(-100%);
+            font-size: 20px;
+        }
+        
+        .wrapper .remember-forgot {
+            display: flex;
+            justify-content: space-around;
+            font-size: 14.5px;
+            margin: -15px 0 15px;
+        }
+        
+        .remember-forgot label input {
+            accent-color: #1e52d7d0;
+            margin-right: 144px;
+        }
+        
+        .remember-forgot a {
+            color: #1e52d7de;
+            text-decoration: none;
+        }
+        
+        .remember-forgot a:hover {
+            text-decoration: underline;
+        }
+        
+        .wrapper .btn {
+            width: 300px;
+            height: 45px;
+            background: #3c6fefc2;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+            cursor: pointer;
+            font: 16px;
+            color: #554f4f;
+            font-weight: 600;
+        }
+        
+        .wrapper .register-link {
+            font-size: 14.5px;
+            text-align: center;
+            margin: 20px 0 15px;
+        }
+        
+        .register-link p a {
+            color: #1e52d7;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .register-link p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="home.html">
+            <h1>Login</h1>
+            <div class="input-box"><input type="text" placeholder="Username" required></div>
+            <div class="input-box"><input type="password" placeholder="Password" required></div>
+            <div class="remember-forgot">
+                <labe1><input type="checkbox">Remember me</labe1><a href="password.html">Forgot password?</a></div><button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>Don't have an account?<a href="Register.html ">Register</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

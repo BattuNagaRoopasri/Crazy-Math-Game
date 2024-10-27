@@ -1,0 +1,242 @@
+body {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMjkCPPEjLURp4IMROkZZwNjXoCDE7aN7pkg&s");
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #ff5722;
+    text-shadow: 2px 2px #ffc107;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    animation: bounce-in-top 1.1s both;
+}
+
+@keyframes bounce-in-top {
+    0% {
+        transform: translateY(-500px);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    30% {
+        transform: translateY(0);
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+    55% {
+        transform: translateY(-65px);
+        animation-timing-function: ease-in;
+    }
+    72% {
+        transform: translateY(0);
+        animation-timing-function: ease-in;
+    }
+}
+
+.register-link p a {
+    color: #1e52d7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #ff5722;
+    font-size: 2em;
+    text-shadow: 2px 2px #ffc107;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.0em;
+    margin: 20px 0;
+}
+
+h4 {
+    text-align: left;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.header {
+    position: relative;
+    padding: 20px;
+}
+
+.login-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2em;
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #2196f3;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #1976d2;
+    transform: scale(1.1);
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+.character {
+    width: 150px;
+    margin: 20px;
+}
+
+.scrolling-text {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+h5 {
+    text-align: center;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #b5e4ec;
+    border-radius: 8px;
+    background-color: #fafafaae;
+    text-align: center;
+    margin: 0 auto;
+    /* Center the container in the viewport */
+}
+
+.title {
+    cursor: pointer;
+    color: blue;
+    margin: 10px 0;
+}
+
+.info {
+    margin: 10px 0;
+    display: none;
+}
+
+ul {
+    list-style-type: disc;
+    /* Use bullet points */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    /* Enable flexbox */
+    flex-direction: column;
+    /* Align items in a column */
+    align-items: center;
+    /* Center items horizontally */
+}
+
+li {
+    margin: 10px 0;
+    /* Space between items */
+    text-align: center;
+    /* Center text within each list item */
+}
+
+.game-section {
+    padding: 2rem 2rem;
+    background-color: #aadff5cf;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.similargames:hover {
+    background-color: #96c1eb6d;
+    transform: scale(1.1);
+}
+
+.similargames {
+    background-color: rgb(168, 229, 244);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.similargames img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.similargames h3 {
+    margin: 1rem 0;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+    .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+}

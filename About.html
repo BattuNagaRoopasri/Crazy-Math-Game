@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Math Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>About The Game</h1>
+        <p>This game was created to make learning math fun and interactive. It aims to help players improve their math skills while enjoying a competitive game. The game will improve the skills of the students</p>
+        <div class="title" onclick="showInfo('info1')">Our Purpose</div>
+        <div id="info1" class="info">In today’s world, strong math skills are essential for success. Our goal is to make math accessible and enjoyable for everyone, helping learners of all ages develop problem-solving skills and a love for numbers. We create an environment where
+            math is no longer intimidating, but rather a fun adventure!</div>
+        <div class="title" onclick="showInfo('info2')">Who We Serve</div>
+        <div id="info2" class="info">MathFunZone is designed for: Children looking to enhance their math skills in a fun way.</li>
+            Students needing extra practice outside the classroom.
+        </div>
+        <div class="title" onclick="showInfo('info3')">Start Your Adventure! </div>
+        <div id="info3" class="info">All our games align with common educational standards, ensuring that players not only have fun but also gain valuable skills that will aid their academic success. With features like progress tracking and achievement badges, learners can see their
+            improvement over time. Ready to make math fun? Explore our games today and join the MathFunZone community. Let’s embark on this exciting journey together!</div>
+        <script>
+            function showInfo(infoId) {
+                const infoDiv = document.getElementById(infoId);
+                const isVisible = infoDiv.style.display === 'block';
+                // Hide all info divs
+                const allInfoDivs = document.querySelectorAll('.info');
+                allInfoDivs.forEach(div => div.style.display = 'none');
+                // Toggle the clicked info div
+                infoDiv.style.display = isVisible ? 'none' : 'block';
+            }
+        </script>
+    </main>
+    <footer>
+        <p>&copy; 2024 Math Quest</p>
+    </footer>
+</body>
+
+</html>

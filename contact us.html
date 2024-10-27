@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us -Math Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <section>
+            <h2>We’d Love to Hear from You!</h2>
+            <h3>If you have any questions, feedback, or need support, please reach out using one of the methods below.</h3>
+        </section>
+
+        <section>
+            <h4>Technical Support</h4>
+            <h3>If you’re experiencing technical issues or need help with the game, please contact our support team:</h3>
+            <h3><strong>Email:</strong> <a href="mailto:techsupport@MathQuest.com">techsupport@MathQuest.com</a></h3>
+        </section>
+
+        <section>
+            <h4>Feedback and Suggestions</h4>
+            <h3>We’re always looking to improve! If you have suggestions or feedback about the game, let us know:</h3>
+            <h3><strong>Email:</strong> <a href="mailto:feedback@MathQuest.com">feedback@MathQuest.com</a></h3>
+        </section>
+        <section>
+            <h5>Contact Form</h5>
+            <div class="container">
+
+                <form id="contactForm">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class=" footer ">
+
+            <p>&copy; 2024 Math Quest. Have fun and learn!</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevents the default form submission
+
+            // Simulating form submission (in a real scenario, you'd send the data to a server)
+            alert('Message sent successfully!');
+
+            // Redirect back to contact page
+            window.location.href = 'contact us.html';
+        });
+    </script>
+</body>
+
+</html>
