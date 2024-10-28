@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Reset</title>
     <style>
@@ -62,15 +63,16 @@
 <body>
 
     <div class="container">
-        <form id="password-reset-form" action="home.html" method="post">
-            <h1>Register</h1>
-            <div class="input-box"><input type="text" placeholder="Full Name" required></div>
-            <div class="input-box"><input type="text" placeholder="Email address" required></div>
-            <div class="input-box"><input type="password" placeholder="New Password" required></div>
-            <div class="input-box"><input type="password" placeholder="Confirm Password" required></div>
-            <button type="submit" class="btn">Register</button>
+        <form action="home.html">
+            <form id="password-reset-form" action="home.html" method="post">
+                <h1>Register</h1>
+                <div class="input-box"><input type="text" placeholder="Full Name" required></div>
+                <div class="input-box"><input type="text" placeholder="Email address" required></div>
+                <div class="input-box"><input type="password" placeholder="New Password" required></div>
+                <div class="input-box"><input type="password" placeholder="Confirm Password" required></div>
+                <button type="submit" class="btn">Register</button>
     </div>
-
+    </form>
 </body>
 
 </html>
