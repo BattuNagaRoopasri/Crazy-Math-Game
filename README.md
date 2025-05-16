@@ -61,14 +61,17 @@
 
 ### 1. Clone the Repo
 git clone https://github.com/BattuNagaRoopasri/Crazy-Math-Game.git
+
 cd Crazy-Math-Game
 ### 2. Run the Game
 Just open home.html in your browser!
 
 🌐 Live Demo
+
 🔗 Play it live: math-quest-six.vercel.app
 
 📈 Future Enhancements
+
 🌡️ Difficulty levels (Easy, Medium, Hard)
 
 🎵 Sound effects and music
