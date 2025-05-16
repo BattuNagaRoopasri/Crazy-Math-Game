@@ -80,8 +80,5 @@ Just open home.html in your browser!
 
 📉 Detailed user stats
 
-👩‍💻 Author
-Roopasri Battu
-📎 GitHub
 
 ✨ If you enjoyed the game, please ⭐ star the repository and share it with others!
