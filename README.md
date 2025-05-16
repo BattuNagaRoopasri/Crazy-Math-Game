@@ -1,58 +1,86 @@
-🎮 Project Overview
-Crazy Math Game is a browser-based application that challenges users with a variety of math problems under time constraints. It aims to make learning mathematics fun and competitive, suitable for users of all ages.
+# 🎲 Crazy Math Game
 
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript, TypeScript
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-Pages Included:
+> 🎯 A fast-paced and fun math game that sharpens your arithmetic skills under time pressure!
 
-home.html
+---
 
-Game.html
+## 🧩 Overview
 
-Timechallenge.html
+**Crazy Math Game** is an engaging, browser-based game where users solve random math problems within a time limit. Compete with yourself or others to top the leaderboard. The game offers various challenges, login and registration systems, and is fully responsive.
 
-Leaderboard.html
+🧠 Train your brain.  
+🏆 Climb the leaderboard.  
+🚀 Beat the clock!
 
-Register.html
+---
 
-login.html
+## 🌟 Features
 
-About.html
+- 🧮 **Dynamic Math Problems** – Randomly generated questions each time!
+- ⏱️ **Time Challenge Mode** – Race against the clock to solve problems.
+- 🔒 **User Login & Signup** – Personalized experience for players.
+- 📊 **Leaderboard** – Show off your high scores!
+- 📱 **Responsive Design** – Play on mobile, tablet, or desktop.
+- 🗂️ Multiple Pages – Home, About, Contact, FAQ, and more.
 
-contact us.html
+---
 
-faq.html
+## 🛠️ Tech Stack
 
-password.html
+| Technology | Purpose                |
+|------------|------------------------|
+| HTML5      | Page structure         |
+| CSS3       | Styling and layout     |
+| JavaScript | Game logic and interactivity |
+| TypeScript | Typed JavaScript support |
 
-reset password.html
+---
 
-🚀 Features
-Interactive Gameplay: Users can solve math problems in a timed environment, enhancing quick thinking and problem-solving skills.
+## 🧪 Pages Included
 
-User Authentication: Includes registration and login functionalities to personalize user experience.
+- `home.html`
+- `Game.html`
+- `Timechallenge.html`
+- `Leaderboard.html`
+- `Register.html`
+- `login.html`
+- `About.html`
+- `contact us.html`
+- `faq.html`
+- `password.html`
+- `reset password.html`
 
-Leaderboard: Tracks and displays top scores, fostering a competitive environment.
+---
 
-Responsive Design: Optimized for various devices, ensuring accessibility and usability.
+## 🚀 Getting Started
 
-📂 Repository Structure
-HTML Files: Structure the different pages of the application.
+### 1. Clone the Repo
 
-CSS Files: Style the application to provide an engaging user interface.
-
-JavaScript/TypeScript Files: Implement the game's logic and interactivity.
-
-Assets: Images and other media used in the application.
-GitHub
+```bash
+git clone https://github.com/BattuNagaRoopasri/Crazy-Math-Game.git
+cd Crazy-Math-Game
+2. Run the Game
+Just open home.html in your browser!
 
 🌐 Live Demo
-Experience the game live at: math-quest-six.vercel.app
+🔗 Play it live: math-quest-six.vercel.app
 
 📈 Future Enhancements
-Integration of different difficulty levels to cater to a broader audience.
+🌡️ Difficulty levels (Easy, Medium, Hard)
 
-Addition of more diverse math problems to cover a wider range of topics.
+🎵 Sound effects and music
 
-Implementation of sound effects and animations to enhance user engagement.
+🎮 Multiplayer support
+
+📉 Detailed user stats
+
+👩‍💻 Author
+Roopasri Battu
+📎 GitHub
+
+✨ If you enjoyed the game, please ⭐ star the repository and share it with others!
